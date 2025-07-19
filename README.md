@@ -86,11 +86,11 @@ You should see message with email_id and apis
 'MYSQL_DATABASE':       Database name to create |
 
 ### 🔹 Backend (FastAPI)
-'DB_HOST'     Hostname for DB (use 'db' as service name)
-'DB_PORT'     MySQL port (default: 3306)
-'DB_USER'     MySQL user (default: 'root')
-'DB_PASSWORD' MySQL password
-'DB_NAME'     Target database
+- 'DB_HOST'     Hostname for DB (use 'db' as service name)
+- 'DB_PORT'     MySQL port (default: 3306)
+- 'DB_USER'     MySQL user (default: 'root')
+- 'DB_PASSWORD' MySQL password
+- 'DB_NAME'     Target database
 
 These are defined in 'docker-compose.yml' under each service's 'environment' section.
 
