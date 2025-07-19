@@ -110,9 +110,9 @@ docker-compose down -v
 
 '''
 .
-  backend/            # FastAPI app
-  frontend/           # React app
-  nginx/              # Nginx reverse proxy config
-  docker-compose.yml  # Compose file
+backend/            # FastAPI app
+frontend/           # React app
+nginx/              # Nginx reverse proxy config
+docker-compose.yml  # Compose file
 '''
 
