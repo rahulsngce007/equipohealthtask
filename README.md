@@ -37,9 +37,9 @@ Components
 
 1. Clone the project
 
-'''bash
-git clone <your-repo-url>
-cd <project-folder>
+'''
+git clone url
+cd folder
 '''
 
 2. Build and run all containers
@@ -50,9 +50,9 @@ docker-compose up --build
 
 3. Open your browser:
 
-- React App → [http://localhost]
-- API Hello → [http://localhost/api/hello]
-- API DB Check → [http://localhost/api/db]
+- React App -> [http://localhost]
+- API Hello -> [http://localhost/api/hello]
+- API DB Check -> [http://localhost/api/db]
 
 ---
 
@@ -67,9 +67,7 @@ docker-compose up --build
   Checks database connection  
   Response: '{ "status": "Connected to DB" }'
 
-Use 'curl', Postman or your browser.
-
-'''bash
+'''
 curl http://localhost/api/hello
 curl http://localhost/api/db
 '''
@@ -77,7 +75,7 @@ curl http://localhost/api/db
 ### Test React App
 
 Go to [http://localhost](http://localhost)  
-You should see "Hello from React" message.
+You should see message with email_id and apis
 
 ---
 
@@ -94,7 +92,7 @@ You should see "Hello from React" message.
 'DB_PASSWORD' MySQL password
 'DB_NAME'     Target database
 
-> These are defined in 'docker-compose.yml' under each service's 'environment' section.
+These are defined in 'docker-compose.yml' under each service's 'environment' section.
 
 ---
 
